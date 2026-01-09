@@ -1,0 +1,10 @@
+[package]
+name = "caramelo"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+pyo3 = {version = "0.25.1", features = ["auto-initialize"]}
+rdkafka = {version = "0.38.0", features = ["cmake-build"]}
+hex = "0.4.3"
+
